@@ -16,4 +16,8 @@ describe Middle_letter do
   it 'should return "de"' do
     expect(subject.get_middle_letter("students")).to eq('de')
   end
+
+  it 'should return "at"' do
+    expect(subject.get_middle_letter("cats")).to eq('at')
+  end
 end
